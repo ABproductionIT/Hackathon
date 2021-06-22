@@ -16,6 +16,5 @@ with open("input.txt") as f:
         levelLen = len(level)
         a = bear(level, levelLen)
         fileout.writelines(a + "\n")
-        print(a)
 fileout.close()
 file.close()
